@@ -12,7 +12,10 @@
   "name": "add-deploy-key-to-github",
   "version": "1.0.0",
   "description": "Add deploy to GitHub from command line. ",
-  "main": "lib/add-deploy-key-to-github.js",
+  "main": "lib/GitHubClient.js",
+  "bin": {
+    "add-deploy-key-to-github": "./bin/cmd.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
