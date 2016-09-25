@@ -10,7 +10,7 @@ const cli = meow(`
     Options
       --repo <owner>/<name>
       --key path to deploy key file(.pub)
-      --token GitHub token
+      --token GitHub API token
       --read_only if it is set, deploy key as read_only key 
         Default: false (write)
       --debug debug print

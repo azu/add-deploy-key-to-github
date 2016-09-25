@@ -20,12 +20,15 @@ CLI usage
     Options
       --repo <owner>/<name>
       --key path to deploy key file(.pub)
-      --token GitHub token
+      --token GitHub API token
       --read_only if it is set, deploy key as read_only key 
         Default: false (write)
+      --debug debug print
 
     Examples
       $ add-deploy-key-to-github --repo azu/add-deploy-key-to-github --key path/to/key.pub --token XXX
+
+Get GitHub API Token from https://help.github.com/articles/creating-an-access-token-for-command-line-use/
 
 ## Changelog
 
