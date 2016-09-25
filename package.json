@@ -1,0 +1,39 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "add-deploy-key-to-github",
+  "version": "1.0.0",
+  "description": "Add deploy to GitHub from command line. ",
+  "main": "lib/add-deploy-key-to-github.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "ssh",
+    "key",
+    "cli",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/add-deploy-key-to-github.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/add-deploy-key-to-github/issues"
+  },
+  "homepage": "https://github.com/azu/add-deploy-key-to-github",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "meow": "^3.7.0",
+    "request": "^2.75.0"
+  }
+}
