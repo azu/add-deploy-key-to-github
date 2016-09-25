@@ -17,7 +17,6 @@
     "add-deploy-key-to-github": "./bin/cmd.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "github",
