@@ -10,14 +10,13 @@
     "src/"
   ],
   "name": "add-deploy-key-to-github",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add deploy to GitHub from command line. ",
   "main": "lib/GitHubClient.js",
   "bin": {
     "add-deploy-key-to-github": "./bin/cmd.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "github",
     "ssh",
